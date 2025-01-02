@@ -1,0 +1,86 @@
+footer {
+    margin: 0;
+    padding: 0;
+    position: relative; /* Permitir posicionar elementos hijos de manera relativa */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega un borde con sombra */
+}
+
+.footer {
+    padding-top: 10rem;
+    background-color: #ffffff;
+    color: #000;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega un borde con sombra */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Espaciado entre elementos a los extremos */
+    align-items: center;
+    padding: 0 20px; /* Añadir padding para separar de los bordes */
+}
+
+.footer-left, .footer-right {
+    flex: 1;
+}
+
+.footer-left {
+    text-align: left; /* Alinear el logo a la izquierda */
+    padding-left: 140px; /* Mover el logo más a la derecha */
+}
+
+.footer-logo {
+    width: 350px;
+    margin: 10px 0;
+}
+
+.footer-right {
+    text-align: left; /* Alinear la información a la derecha */
+    padding-left: 350px; /* Ajustar padding si es necesario */
+    margin-right: 20px;
+}
+
+.footer-text p {
+    margin: 13px 0;
+    padding-left: 8%;
+}
+
+
+.footer-bottom2 {
+    /* VEDA */
+    /* background-color: #4f5b66; */
+    
+    background-color: #A21a5c;
+    color: white;
+    padding: 10px 0;
+    position: relative; /* Para evitar conflictos con el posicionamiento absoluto del logo */
+}
+
+.footer-bottom {
+    /* VEDA */
+    /* background-color: #343d46; */
+    
+    background-color: #5a2a82;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative; /* Para evitar conflictos con el posicionamiento absoluto del logo */
+}
+
+.footer-bottom-left,
+.footer-bottom-right{
+    padding: 0 80px;
+}
+
+.footer-bottom-left{
+    text-align: left;
+    flex: 1;
+}
+
+.footer-bottom-right{
+    text-align: right;
+    flex: 1;
+}
