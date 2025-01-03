@@ -1,3 +1,34 @@
 .footer-logo {
-    width: 50px;
+    width: 180px;
+}
+
+.circle-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-flex; /* Asegura que se alineen correctamente */
+    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    margin: 0 5px; /* Añade un espacio entre cada ícono */
+}
+
+#facebook{
+    background-color: #3b5998;
+}
+
+#twitter{
+    background-color: #55acee;
+}
+
+#instagram {
+    background-color: #ac2bac;
+}
+
+#youtube{
+    background-color: #de0303;
+}
+
+.footer-copyright{
+    background-color: rgba(0, 0, 0, 0.05);
 }
