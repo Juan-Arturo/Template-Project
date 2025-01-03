@@ -5,7 +5,6 @@
   }
   
   .main-content {
-    /* margin-top: 4.5rem; */
     display: flex;
     flex-grow: 1; /* Hace que el contenido se expanda para ocupar el espacio restante */
   }
