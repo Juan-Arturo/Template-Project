@@ -1,9 +1,13 @@
 <!-- app.component.html -->
 <div class="app-container">
-    <app-header2></app-header2>
-    
+    <div class="blur">
+      <app-header2></app-header2>
+    </div>
+
     <div class="main-content">
-      <app-sidebar></app-sidebar>
+      <div class="bg-light">
+        <app-sidebar></app-sidebar>
+      </div>
       
       <div class="content">
         <router-outlet></router-outlet>
@@ -11,5 +15,4 @@
     </div>
     
     <app-footer2></app-footer2>
-  </div>
-  
+</div>  
