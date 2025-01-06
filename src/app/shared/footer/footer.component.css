@@ -1,106 +1,34 @@
-footer {
-    margin: 0;
-    padding: 0;
-    position: relative; /* Permitir posicionar elementos hijos de manera relativa */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega un borde con sombra */
-}
-
-.footer {
-    padding-top: 10rem;
-    background-color: #ffffff;
-    color: #000;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega un borde con sombra */
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between; /* Espaciado entre elementos a los extremos */
-    align-items: center;
-    padding: 0 20px; /* Añadir padding para separar de los bordes */
-}
-
-.footer-left, .footer-right {
-    flex: 1;
-}
-
-.footer-left {
-    text-align: left; /* Alinear el logo a la izquierda */
-    padding-left: 140px; /* Mover el logo más a la derecha */
-}
-
 .footer-logo {
-    width: 350px;
-    margin: 10px 0;
+    width: 180px;
 }
 
-.footer-right {
-    text-align: left; /* Alinear la información a la derecha */
-    padding-left: 350px; /* Ajustar padding si es necesario */
-    margin-right: 20px;
-}
-
-.footer-text p {
-    margin: 13px 0;
-    padding-left: 8%;
-}
-
-.circle-background {
-    width: 280px;
-    height: 280px;
+.circle-icon {
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto; /* Centra el círculo */
-    position: absolute;
-    top: -85px; /* Ajusta este valor para elevar el logo */
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10; /* Asegurar que esté sobre otros elementos */
+    display: inline-flex; /* Asegura que se alineen correctamente */
+    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    margin: 0 5px; /* Añade un espacio entre cada ícono */
 }
 
-.main-logo-img {
-    width: 220px; /* Ajusta el tamaño de la imagen dentro del círculo */
+#facebook{
+    background-color: #3b5998;
 }
 
-.footer-bottom2 {
-    /* VEDA */
-    /* background-color: #4f5b66; */
-    
-    background-color: #A21a5c;
-    color: white;
-    padding: 10px 0;
-    position: relative; /* Para evitar conflictos con el posicionamiento absoluto del logo */
+#twitter{
+    background-color: #55acee;
 }
 
-.footer-bottom {
-    /* VEDA */
-    /* background-color: #343d46; */
-    
-    background-color: #5a2a82;
-    color: white;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    position: relative; /* Para evitar conflictos con el posicionamiento absoluto del logo */
+#instagram {
+    background-color: #ac2bac;
 }
 
-.footer-bottom-left,
-.footer-bottom-right{
-    padding: 0 80px;
+#youtube{
+    background-color: #de0303;
 }
 
-.footer-bottom-left{
-    text-align: left;
-    flex: 1;
-}
-
-.footer-bottom-right{
-    text-align: right;
-    flex: 1;
+.footer-copyright{
+    background-color: rgba(0, 0, 0, 0.05);
 }

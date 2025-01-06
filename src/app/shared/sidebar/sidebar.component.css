@@ -1,3 +1,20 @@
-.dropdown-toggle{
-    color: black;
+.dropdown-toggle {
+  color: rgb(0, 0, 0) !important; /* Establece el color rojo */
+  background-color: transparent; /* Por si tiene un fondo predefinido */
+  border: none; /* Elimina cualquier borde predeterminado */
+  transition: color 0.3s ease; /* Suaviza el cambio de color */
+}
+
+.dropdown-toggle:hover {
+  color: rgb(0, 0, 0); /* Cambia a un rojo más oscuro al pasar el mouse */
+}
+
+i {
+  color: #5f4297;
+  font-size: 20px;
+}
+
+.profilePic {
+    border: 3px solid; /* Borde sólido negro de 10px */
+    border-color: #5f4297;
 }
