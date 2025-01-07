@@ -10,7 +10,7 @@
 .app-container-svg {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(0deg, #3b045a 0%, rgba(78, 18, 112, 0.8) 50%), url("/assets/img/wallpaper_dark.svg");
+  background: url("/assets/img/wallpaper_dark2.png");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
