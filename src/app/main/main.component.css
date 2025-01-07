@@ -7,6 +7,15 @@
   background-attachment: fixed; /* Hace que el fondo se quede fijo al hacer scroll */
 }
 
+.app-container-svg {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(0deg, #3b045a 0%, rgba(78, 18, 112, 0.8) 50%), url("/assets/img/wallpaper_dark.svg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
 .main-content {
   display: flex;
   flex-grow: 1; /* Hace que el contenido se expanda para ocupar el espacio restante */
@@ -16,9 +25,8 @@ app-sidebar {
   width: 4.5rem; /* Ajusta el tamaño del sidebar */
 }
 
-
 .blur {
-  background-color: rgba(233, 233, 233, 0.5); /* Fondo con transparencia */
+  background-color: rgba(65, 65, 65, 0.5); /* Fondo con transparencia */
   backdrop-filter: blur(8px); /* Efecto de desenfoque */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   position: relative; /* Para que no se desplace el contenido de blur */
