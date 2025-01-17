@@ -1,0 +1,6 @@
+.rounded-container {
+    border-radius: 15px; /* Ajusta el valor para más o menos redondeo */
+    border: 1px solid #ccc; /* Opcional: agrega un borde para que se note el contenedor */
+    padding: 20px; /* Espaciado interno opcional */
+    background-color: #f8f9fa; /* Fondo opcional */
+}

@@ -1,0 +1,25 @@
+header .bg-image {
+  position: relative;
+  overflow: hidden;
+}
+
+header .bg-image .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px); /* Efecto de desenfoque */
+}
+
+header .text-white h4 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.bg-image {
+  background-image: url("/assets/img/12-Foto-Aerea-SEPE-USET/Foto-Aerea-SEPE-USET-3.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
