@@ -18,8 +18,13 @@
 
 .main-content {
   display: flex;
-  flex-grow: 1; /* Hace que el contenido se expanda para ocupar el espacio restante */
+  
 }
+
+.content {
+  flex-grow: 1; 
+}
+
 
 app-sidebar {
   width: 4.5rem; /* Ajusta el tamaño del sidebar */
