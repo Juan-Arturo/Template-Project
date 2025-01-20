@@ -6,7 +6,10 @@
   <div class="main-content">
     <div class="bg-light d-flex rounded">
       <!-- Botón para mostrar/ocultar sidebar -->
-      <button class="rounded bg-light" (click)="toggleSidebar()"><i class="bi bi-list"></i></button>
+      <button class="rounded bg-light" (click)="toggleSidebar()">
+        <i class="bi bi-list"></i>
+      </button>
+      <!-- Sidebar con animación -->
       <app-sidebar [class.sidebar-hidden]="sidebarHidden"></app-sidebar>
     </div>
 
