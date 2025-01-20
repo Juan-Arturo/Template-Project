@@ -40,3 +40,10 @@ app-sidebar {
 app-header2 {
   background: transparent; /* Asegura que no tenga un fondo sólido que tape el efecto de blur */
 }
+
+/* ocultar sideba */
+.sidebar-hidden {
+  display: none; /* Puedes utilizar transform si prefieres animarlo */
+}
+
+

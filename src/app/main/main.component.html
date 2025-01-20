@@ -1,18 +1,19 @@
-
 <div class="app-container-svg">
-    <div class="blur">
-      <app-header></app-header>
+  <div class="blur">
+    <app-header></app-header>
+  </div>
+
+  <div class="main-content">
+    <div class="bg-light d-flex">
+      <!-- Botón para mostrar/ocultar sidebar -->
+      <button class="" (click)="toggleSidebar()">M<br>E<br>N<br>U</button>
+      <app-sidebar [class.sidebar-hidden]="sidebarHidden"></app-sidebar>
     </div>
 
-    <div class="main-content">
-      <div class="bg-light">
-        <app-sidebar></app-sidebar>
-      </div>
-    
-      <div class="container-fluid">
-        <router-outlet></router-outlet>
-      </div>
+    <div class="container-fluid">
+      <router-outlet></router-outlet>
     </div>
-   
-    <app-footer></app-footer>
-</div>  
+  </div>
+
+  <app-footer></app-footer>
+</div>
