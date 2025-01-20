@@ -43,7 +43,13 @@ app-header2 {
 
 /* ocultar sideba */
 .sidebar-hidden {
-  display: none; /* Puedes utilizar transform si prefieres animarlo */
+  width: 0;
+  overflow: hidden; /* Ocultar contenido */
+  opacity: 0; /* Sidebar invisible */
+  transition: width 0.3s ease-in, opacity 0.3s ease-in; /* Transición al ocultar */
 }
 
-
+.rounded {
+    border-radius: 15px; /* Ajusta el valor para más o menos redondeo */
+    border: 1px solid #ccc; /* Opcional: agrega un borde para que se note el contenedor */
+}

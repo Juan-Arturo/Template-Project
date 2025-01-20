@@ -15,10 +15,10 @@ import { TablesComponent } from '../shared/tables/tables.component';
 })
 export class MainComponent {
 
-
   // visualizacion del sidebar
   sidebarHidden: boolean = false;
   toggleSidebar(): void {
     this.sidebarHidden = !this.sidebarHidden;
   }
+
 }

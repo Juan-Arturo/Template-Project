@@ -4,9 +4,9 @@
   </div>
 
   <div class="main-content">
-    <div class="bg-light d-flex">
+    <div class="bg-light d-flex rounded">
       <!-- Botón para mostrar/ocultar sidebar -->
-      <button class="" (click)="toggleSidebar()">M<br>E<br>N<br>U</button>
+      <button class="rounded bg-light" (click)="toggleSidebar()"><i class="bi bi-list"></i></button>
       <app-sidebar [class.sidebar-hidden]="sidebarHidden"></app-sidebar>
     </div>
 
