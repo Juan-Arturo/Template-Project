@@ -18,3 +18,8 @@ i {
     border: 3px solid; /* Borde sólido negro de 10px */
     border-color: #572772;
 }
+
+.sidebar.collapsed {
+  width: 0;
+  overflow: hidden;
+}
