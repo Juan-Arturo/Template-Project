@@ -14,8 +14,10 @@ import { TablesComponent } from '../shared/tables/tables.component';
   styleUrl: './main.component.css'
 })
 export class MainComponent {
-  sidebarHidden: boolean = false;
 
+
+  // visualizacion del sidebar
+  sidebarHidden: boolean = false;
   toggleSidebar(): void {
     this.sidebarHidden = !this.sidebarHidden;
   }
