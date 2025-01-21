@@ -11,6 +11,6 @@ export const routes: Routes = [
     { path: 'newslatter', component: NewslatterComponent },
     { path: 'register', component: RegisterComponent },
     { path: 'tableiu', component: TableIUComponent },
-    { path: 'loginiu', component: LoginIUComponent },
+    { path: 'login', component: LoginIUComponent },
     { path: '**', component: HomeComponent },
 ];
