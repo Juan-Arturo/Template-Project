@@ -1,21 +1,60 @@
 .app-container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh; /* Para que ocupe toda la altura */
-  }
+  display: flex;
+  flex-direction: column;
+  background-image: url("/assets/img/NORMAL/new-bg-tlx-.png");
+  background-size: cover; /* Asegura que el fondo cubra toda la pantalla */
+  background-position: center center; /* Centra el fondo */
+  background-attachment: fixed; /* Hace que el fondo se quede fijo al hacer scroll */
+}
+
+.app-container-svg {
+  display: flex;
+  flex-direction: column;
+  background: url("/assets/img/wallpaper_dark2.png");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.main-content {
+  display: flex;
   
-  .main-content {
-    display: flex;
-    flex-grow: 1; /* Hace que el contenido se expanda para ocupar el espacio restante */
-  }
-  
-  app-sidebar {
-    width:  4.5rem; /* Ajusta el tamaño del sidebar */
-  }
-  
-  .content {
-    flex-grow: 1; /* Hace que el contenido se expanda para ocupar el espacio restante */
-    padding: 20px; /* Espaciado alrededor del contenido */
-    background-color: #f4f4f4; /* Puedes agregar un color de fondo si lo deseas */
-  }
-  
+}
+
+.content {
+  flex-grow: 1; 
+}
+
+
+app-sidebar {
+  width: 4.5rem; /* Ajusta el tamaño del sidebar */
+}
+
+.blur {
+  background-color: rgba(65, 65, 65, 0.5); /* Fondo con transparencia */
+  backdrop-filter: blur(8px); /* Efecto de desenfoque */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  position: relative; /* Para que no se desplace el contenido de blur */
+}
+
+app-header2 {
+  background: transparent; /* Asegura que no tenga un fondo sólido que tape el efecto de blur */
+}
+
+/* ocultar sideba */
+.sidebar-hidden {
+  width: 0; /* Ocultar ancho */
+  overflow: hidden; /* Ocultar contenido desbordado */
+  opacity: 0; /* Totalmente invisible */
+  transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Transición en ambos estados */
+}
+
+.rounded {
+    border-radius: 15px; /* Ajusta el valor para más o menos redondeo */
+    border: 1px solid #ccc; /* Opcional: agrega un borde para que se note el contenedor */
+}
+
+app-sidebar {
+  opacity: 1; /* Totalmente visible */
+  transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Transición en ambos estados */
+}

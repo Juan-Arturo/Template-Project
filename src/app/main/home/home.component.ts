@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
-import { FooterComponent } from '../../shared/footer/footer.component';
-import { HeaderComponent } from '../../shared/header/header.component';
-import { Footer2Component } from '../../shared/footer2/footer2.component';
-import { SidebarComponent } from '../../shared/sidebar/sidebar.component';
+import { LoginComponent } from '../../shared/login/login.component';
+import { TablesComponent } from "../../shared/tables/tables.component";
+import { NewslatterTwoComponent } from '../../shared/newslatter-two/newslatter-two.component';
+
 
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [LoginComponent, TablesComponent,NewslatterTwoComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
